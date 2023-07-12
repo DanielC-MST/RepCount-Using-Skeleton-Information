@@ -2,7 +2,7 @@
 - Linux
 - Python 3.8+
 - PyTorch 1.10+
-- CUDA 12.0+
+- CUDA 11.0+
 - NumPy 1.11+
 - PyYaml
 - Pytorch Lightning
