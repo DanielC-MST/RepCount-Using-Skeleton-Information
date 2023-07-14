@@ -35,6 +35,8 @@ This folder
 │    │	 └───train/
 │    │   └───valid/
 │    └───video_visual_output/
+│    │   └───test_density_img_5_ave/
+
 ```
 
 ## Code

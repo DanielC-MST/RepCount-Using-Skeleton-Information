@@ -8,16 +8,16 @@ dataset: {
 PoseRAC: {
   seed: 42,
   # TODO
-  dim: 100, # 99 -> 104
-  heads: 10, # 9 (105)-> 8 (104) - >1
+  dim: 104,
+  heads: 8,
   enc_layer: 6,
-  all_key_points: 100, # 99-> 109 -> 105 for 5 angels + 100 padding
+  all_key_points: 100,
   learning_rate: 0.001,
   alpha: 0.01
 }
 Action_trigger: {
-  enter_threshold: 0.717, # 0.78  best 0.717
-  exit_threshold: 0.30, # best 0.3
+  enter_threshold: 0.717,
+  exit_threshold: 0.30,
   momentum: 0.4
 }
 trainer: {
@@ -26,4 +26,4 @@ trainer: {
   accelerator: 'gpu',
   devices: 1
 }
-save_ckpt_path: 'new_weights_only_5_ave_joints_can_del200epo.pth'
+save_ckpt_path: 'best_weights.pth'

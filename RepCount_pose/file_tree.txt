@@ -1,0 +1,46 @@
+RepCountA
+|-- annotation
+|   |-- test.csv
+|   |-- train.csv
+|   `-- valid.csv
+|-- original_data
+|   |-- DownloadLink
+|   |   |-- battle_rope.txt
+|   |   |-- bench_pressing.txt
+|   |   |-- front_raise.txt
+|   |   |-- jump_jack.txt
+|   |   |-- others.txt
+|   |   |-- pommel.txt
+|   |   |-- pull_up.txt
+|   |   |-- push_up.txt
+|   |   |-- situp.txt
+|   |   |-- soccer_jungle.txt
+|   |   `-- squat.txt
+|   `-- filename_mapping.xlsx
+`-- video
+    |-- test
+    |   |-- stu10_1.mp4
+    |   |-- stu10_17.mp4
+    |   |--  ......
+    |   |--  ......
+    |   |--  ......
+    |   |-- val1257.mp4
+    |   `-- val579.mp4
+    |-- train
+    |   |-- stu10_0.mp4
+    |   |-- stu10_10.mp4
+    |   |--  ......
+    |   |--  ......
+    |   |--  ......
+    |   |-- val912.mp4
+    |   `-- val914.mp4
+    `-- valid
+        |-- stu10_13.mp4
+        |-- stu10_34.mp4
+        |-- ......
+        |-- ......
+        |-- ......
+        |-- val1093.mp4
+        `-- val901.mp4
+
+7 directories, 1057 files
