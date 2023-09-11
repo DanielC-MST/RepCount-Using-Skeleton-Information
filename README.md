@@ -1,4 +1,5 @@
-# Peloton-Intern-RepCount
+# RepCount: Advancements in Repetitive Action Counting: Joint-Based PoseRAC Model With Improved Performance
+This work is based on <<https://github.com/SvipRepetitionCounting/TransRAC>> and <<https://github.com/MiracleDance/PoseRAC>>
 RepCount using skeleton and joint information
 
 utils folder done
@@ -91,3 +92,27 @@ Haodong Chen (h.chen@mst.edu)
 
 If you have any questions or suggestions, don't hesitate to contact me!
 
+## Reference and Citation
+```
+@article{chen2023advancements,
+  title={Advancements in Repetitive Action Counting: Joint-Based PoseRAC Model With Improved Performance},
+  author={Chen, Haodong and Leu, Ming C and Moniruzzaman, Md and Yin, Zhaozheng and Hajmohammadi, Solmaz and Chang, Zhuoqing},
+  journal={arXiv preprint arXiv:2308.08632},
+  year={2023}
+}
+
+@article{yao2023poserac,
+  title={PoseRAC: Pose Saliency Transformer for Repetitive Action Counting},
+  author={Yao, Ziyu and Cheng, Xuxin and Zou, Yuexian},
+  journal={arXiv preprint arXiv:2303.08450},
+  year={2023}
+}
+
+@inproceedings{hu2022transrac,
+  title={TransRAC: Encoding Multi-scale Temporal Correlation with Transformers for Repetitive Action Counting},
+  author={Hu, Huazhang and Dong, Sixun and Zhao, Yiqun and Lian, Dongze and Li, Zhengxin and Gao, Shenghua},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={19013--19022},
+  year={2022}
+}
+```
